@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BougainvilleaInfo">
+
+    <TextView
+        android:id="@+id/Bougainvillea"
+        android:layout_width="381dp"
+        android:layout_height="382dp"
+        android:text="Bougainvillea is a genus of thorny ornamental vines, bushes, and trees belonging to the four o' clock family, Nyctaginaceae. They are native to Brazil, Peru, and Argentina. There are between 4 and 22 species in the genus.[2] The inflorescence consists of large colourful sepal-like bracts which surround three simple waxy flowers, gaining popularity for the plant as an ornamental. The plant is named after explorer Louis Antoine de Bougainville (1729-1811), after it was documented on one of his expeditions. The species grow 1 to 12 metres (3 to 39 ft) tall, scrambling over other plants with their spiky thorns. They are evergreen where rainfall occurs all year, or deciduous if there is a dry season. The leaves are alternate, simple ovate-acuminate, 4–13 cm (1.6–5.1 in) long and 2–6 cm (0.79–2.4 in) broad. The actual flower of the plant is small and generally white, but each cluster of three flowers is surrounded by three or six bracts with the bright colours associated with the plant, including pink, magenta, purple, red, orange, white, or yellow. Bougainvillea glabra is sometimes called &quot;paper flower&quot; because its bracts are thin and papery. The fruit is a narrow five-lobed achene."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.871" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="276dp"
+        android:layout_height="230dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.15"
+        app:srcCompat="@drawable/bougainvillea" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bougainvillea"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064" />
+</androidx.constraintlayout.widget.ConstraintLayout>

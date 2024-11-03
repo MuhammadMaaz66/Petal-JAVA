@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="txtloginEmail" type="id" />
+    <item name="txtloginPassword" type="id" />
+    <item name="EnterEmail" type="id" />
+    <item name="commentTitle" type="id" />
+    <item name="commentInput" type="id" />
+    <item name="txtregisterUsername" type="id" />
+    <item name="textViewUsername" type="id" />
+    <item name="textView4" type="id" />
+    <item name="textViewComment" type="id" />
+    <item name="editTextComment" type="id" />
+    <item name="submitComment" type="id" />
+    <item name="loginBtn" type="id" />
+</resources>

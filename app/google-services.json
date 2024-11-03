@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "595504225714",
+    "project_id": "petal-login-register",
+    "storage_bucket": "petal-login-register.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595504225714:android:2d35a1f8d7897e384f58ab",
+        "android_client_info": {
+          "package_name": "com.example.flowerobjectdetection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAIgskm6AEzBz0PFnRwARSWO4ocpCqToY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

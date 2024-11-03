@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <com.google.android.material.bottomsheet.BottomSheetDragHandleView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        android:hint="type something"
+        android:id="@+id/textFieldLayout"
+        android:layout_margin="10sp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        app:srcCompat="@drawable/rose" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="345dp"
+        android:text="A rose is either a woody perennial flowering plant of the genus Rosa (/ˈroʊzə/),[4] in the family Rosaceae (/roʊˈzeɪsiːˌiː/),[4] or the flower it bears. There are over three hundred species and tens of thousands of cultivars.[5] They form a group of plants that can be erect shrubs, climbing, or trailing, with stems that are often armed with sharp prickles.[6] Their flowers vary in size and shape and are usually large and showy, in colours ranging from white through yellows and reds. Most species are native to Asia, with smaller numbers native to Europe, North America, and Northwest Africa.[6] Species, cultivars and hybrids are all widely grown for their beauty and often are fragrant. Roses have acquired cultural significance in many societies. Rose plants range in size from compact, miniature roses to climbers that can reach seven meters in height.[6] Different species hybridize easily, and this has been used in the development of the wide range of garden roses." />
+
+</LinearLayout>
